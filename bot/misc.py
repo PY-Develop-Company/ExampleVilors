@@ -47,5 +47,7 @@ async def command_start_handler(message: Message) -> None:
 
 
 async def main() -> None:
+    # для ігнорування івентів (повідомлень, натискань на кнопки і тд.) зроблених під час неактивності бота
+    await bot.delete_webhook(drop_pending_updates=True)
     # запускаємо бота через long pooling mode диспатчера
     await dp.start_polling(bot)

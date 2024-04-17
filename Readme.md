@@ -1,5 +1,8 @@
 # Introduction to basic aiogram by Vilors
-> This repo is illustration how to use basic aiogram in Vilors projects
+
+> This repo is illustration how to use **basic aiogram (v3.*)** in Vilors projects
+
+---
 
 #### Included topics:
 
@@ -10,5 +13,4 @@
 5. Filters.
 
 > [!NOTE]
-> Before running this code copy config_preset.ini content to config.ini file and put your data there
-<!-- This content will not appear in the rendered Markdown -->
+> Before running this code copy ```config_preset.ini``` content to ```config.ini``` file and put your data there
