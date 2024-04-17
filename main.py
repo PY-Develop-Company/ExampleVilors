@@ -1,3 +1,5 @@
+# основний файл з якого запускаємо всі інші модулі та скрипти
+
 import asyncio
 import logging
 import sys
